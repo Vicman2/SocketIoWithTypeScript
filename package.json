@@ -1,0 +1,22 @@
+{
+  "name": "socketwithtypescript",
+  "version": "1.0.0",
+  "description": "Socket.io With TypeScript",
+  "scripts": {
+    "dev": "concurrently -k \"tsc -p ./src/server -w\" \"tsc -p ./src/client -w\" \"nodemon ./dist/server/server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vicman",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^1.4.36",
+    "concurrently": "^7.1.0"
+  }
+}

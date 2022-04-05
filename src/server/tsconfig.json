@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "commonjs",
+        "outDir": "../../dist/server",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "types": ["socket.io-client"]
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "../../node_modules",
+    ]
+}
